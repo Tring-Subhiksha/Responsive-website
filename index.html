@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form validation</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Registration Form</h2>
+        </div>
+    <form class="form">
+        <div class="form-group">
+            <label for="">UserName👤</label>
+         <input type="text" placeholder="Enter the UserName" id="name" autocomplete="off" onkeyup="validateName()">
+        
+       <div class="span"> <div id="name-err"></div></div>
+        </div>
+        <div class="form-group">
+            <label>Email Id</label>
+         <input type="text" placeholder="Enter your Email Id" id="email" autocomplete="off" onkeyup="validateEmail()">
+         
+            <div class="span">  <div id="email-err"></div></div>  
+        </div>
+        <div class="form-group">
+            <label>Phone Number☎️</label>
+         <input type="number" placeholder="Enter your Phone Number" id="phone" autocomplete="off" onkeyup="validatePhone()">
+         
+         <div class="span">  <div id="phone-err"></div></div>
+        </div>
+        <div class="form-group">
+            <label>Date of Birth👼</label>
+         <input type="date" placeholder="Enter your Data of Birth" id="date" autocomplete="off" onchange="validateDate()">
+         
+         <div class="span">   <div id="date-err"></div></div>
+        </div>
+        <div class="form-group">
+            <label>Password</label>
+         <input type="password" placeholder="Enter your Password" id="password" autocomplete="off" onkeyup="validatePassword()">
+         
+         <div class="span"><div id="password-err"></div></div>
+        </div>
+        
+        <button onclick="return Submit()">Submit</button>
+        <div id="submit"></div>
+    </form>
+    </div>
+    <script src="script.js">
+
+    </script>
+</body>
+</html>

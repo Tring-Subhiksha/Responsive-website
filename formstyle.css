@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+   
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: url("burger3.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.container{
+    background-color: rgb(216,214,214);
+
+    width: 500px;
+    border-radius: 10px;
+}
+.header{
+    color: #fff;
+    text-align: center;
+    background-color: #0a080b;
+    padding: 20px 40px;
+    border-bottom: 2px solid #494848;
+    border-radius: 10px;
+}
+
+.form{
+    padding: 30px 40px;
+}
+
+.form-group{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 5px;
+}
+.form-group input{
+    border: 2px solid #f0f0f0;
+    display: block;
+    border-radius: 4px;
+    font-size: .8rem;
+    width: 100%;
+    padding: 10px;
+}
+.form-group .span #name-err{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-style: bold;
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-group .span #email-err{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-style: bold;
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-group .span #phone-err{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-style: bold;
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-group .span #date-err{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-style: bold;
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-group .span #password-err{
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-weight: bolder;
+    font-size: 1rem;
+    font-style: bold;
+    visibility: visible;
+    color: #e74c3c;
+}
+
+ button{
+    background-color: #2a0845;
+    border: none;
+    outline: none;
+    color: #fff;
+    width: 35%;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    
+   margin-left: 120px;
+}
+
+#submit{
+    color:#e74c3c
+}
+
