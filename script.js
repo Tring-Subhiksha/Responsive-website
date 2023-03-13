@@ -81,15 +81,18 @@ function validateDate(){
 function validatePassword(){
     let password=document.getElementById("password").value
     if(password==""){
-        passwordError.innerHTML="*Password should not be blank"
+        let str="*Password should not be blank"
+        passwordError.innerHTML=str
         return false
     }
     else if(password.length<8){
-        passwordError.innerHTML="*Password should atleast in 8 characters"
+        let strtwo="*Password should atleast in 8 characters"
+        passwordError.innerHTML=strtwo
         return false
     }
     else{
-        passwordError.innerHTML="*Password is valid"
+        let strthree="*Password is valid"
+        passwordError.innerHTML=strthree
         return true
     }
 }
